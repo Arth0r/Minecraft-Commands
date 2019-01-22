@@ -1,7 +1,7 @@
 module.exports = new (class cmd{
     constructor(){
         this.name = "avatar"; // nome do comando
-        this.category = "util" // estilo da categoria
+        this.category = "minecraft" // estilo da categoria
         this.help = "Veja a minha lista de comandos"; // sistema de help do cmd
         this.cooldown = 3; //delay
         this.cdMessage = "Aguarde 3 segundos para usar o comando novamente"; // mensagem
